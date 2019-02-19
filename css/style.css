@@ -1,0 +1,214 @@
+body {
+    font-family: Montserrat;
+}
+.fon {
+    background-image: url(img/fon.png);
+    background-position: -6px -31px;
+    background-repeat: no-repeat;
+}
+
+img.logo {
+    margin-top: 2px;
+}
+a.phone {
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+    position: relative;
+    top: 24px;
+    left: 3px;
+}
+div.phone {
+    text-align: right;
+}
+header {
+    background-color: rgba(256, 256, 256, 0.7);
+    height: 83px;
+}
+.free {
+    text-align: center;
+    border: 1px dashed #008bf8;
+    margin: 30px -2px;
+    padding: 7px 0px;
+    letter-spacing: .8px;
+}
+span.clock {
+    background-image: url(img/time.png);
+    display: inline-block;
+    width: 99px;
+    text-align: right;
+    margin-right: -9px;
+    height: 28px;
+}
+.clock span {
+    position: relative;
+    left: -11px;
+    color: #666666;
+}
+.offer h1 {
+    text-align: center;
+    font-size: 35px;
+    color: #d80209;
+    margin-top: 7px;
+    font-weight: 700;
+}
+.offer p {
+    font-size: 30px;
+    text-align: center;
+    color: #1a1a1a;
+    font-weight: 600;
+    padding: 0 63px;
+    line-height: 35px;
+}
+input.email {
+    width: 100%;
+    border: 1px solid #e1e4e8;
+    margin-top: 21px;
+    height: 49px;
+    padding-left: 28px;
+    border-radius: 30px;
+}
+input::-webkit-input-placeholder {
+    color: #b2b2b2;
+} 
+input::-moz-placeholder {
+    color: #b2b2b2;
+}
+a.buttom {
+    color: #000;
+    display: block;
+    background-color: #ffbd08;
+    text-align: center;
+    padding: 20px 0px;
+    margin-top: 22px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+}
+span.flaf {
+    height: 43px;
+    display: inline-block;
+    width: 48px;
+    margin: 0 16px 0 16px;
+    background-image: url(img/Icon.png);
+}
+.timer {
+    text-align: center;
+}
+.time {
+    display: inline-block;
+    text-align: center;
+}
+span.dv {
+    position: relative;
+    top: -22px;
+    font-weight: 500;
+    font-size: 26px;
+}
+.num {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 22px;
+    padding: 0px 21px;
+}
+.n_t {
+    margin-top: -8px;
+}
+.plusi span.log {
+    display: block;
+    width: 70px;
+    height: 70px;
+}
+.plusi p {
+    margin-top: 22px;
+    letter-spacing: 0.2px;
+}
+span.famil.log {
+    background-image: url(img/famil.png);
+}
+span.maney.log {
+    background-image: url(img/maney.png);
+}
+span.palmi.log {
+    background-image: url(img/palmi.png);
+}
+.row.plusi {
+    margin-top: 22px;
+}
+.row.plusi > div {
+    margin-right: -4px;
+}
+
+.container.welcom {
+    margin-top: 66px;
+}
+.welcom h3 {
+    font-size: 20px;
+    font-weight: 900;
+}
+.otziv p {
+    font-size: 20px;
+    line-height: 26px;
+}
+img.photo {
+    float: right;
+}
+p.podtis {
+    text-align: right;
+    font-style: italic;
+}
+.welcom .form {
+    margin-top: -19px;
+}
+.welcom a.buttom {
+    padding: 10px 0;
+}
+.fon2 {
+    background-color: #61b523;
+    margin-top: 35px;
+    text-align: center;
+}
+.dlyakogo h3 {
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 50px;
+    color: #fff;
+}
+.bel-bloc span {
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+}
+.bel-bloc {
+    background-color: #fff;
+    margin-top: 31px;
+    height: 265px;
+    padding: 30px;
+    margin-bottom: 60px;
+}
+
+
+span.more {
+    background-image: url(img/more.png);
+}
+span.pasport {
+    background-image: url(img/pasport.png);
+}
+span.ruka {
+    background-image: url(img/ruka.png);
+}
+p.title-bloc {
+    margin-top: 12px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+
+@media (max-width: 992px) {
+    .fmmm {
+        margin-bottom: 60px;
+    }
+}
